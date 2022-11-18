@@ -1,0 +1,40 @@
+<header>
+    <app-header></app-header>
+  </header>
+<div class="container pt-5">
+    <div class="row m-0">
+        <div class="col-sm-12">
+            <a role="button" [routerLink]="['/accountSettings']" href="javascript:void(0)" class="btn btn-primary center-align-items ms-auto mb-4">
+                <img src="../../../../assets/img/edit-2.png">
+                <span>Edit Profile</span>
+            </a>
+        </div>
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-content flex-justify-between">
+                    <div class="profile-info-wrap">
+                        <div class="user-img-wrap">
+                            <img src="../../../../assets/img/profile_pic.png" class="img-fluid profile-card-img"/>
+                        </div>
+                        <div class="profile-info-content">
+                            <h3 class="user-name-info">Kevin Smith</h3>
+                            <p class="mb-0 desgnation-info">Admin (Product Manager)</p>
+                            <div class="user-phone-info">
+                                <img src="../../../../assets/img/call.png" class="phone-icon"/>
+                                <span class="user-phone">9878123142</span>
+                            </div>
+                            <div class="user-mail-info">
+                                <img src="../../../../assets/img/mail.png" class="mail-icon"/>
+                                <span class="user-mail">kevinsmith@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="admin-activation-deactivation-wrap">
+                        <button type="button" class="btn btn-success">Active</button>
+                        <button type="button" class="btn btn-danger">Inactive</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
