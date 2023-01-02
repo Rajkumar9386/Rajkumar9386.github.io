@@ -1,0 +1,79 @@
+/* You can add global styles to this file, and also import other style files */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* Author Raj Kumar 27-03-2022   */
+/* @font-face {
+    font-family: 'Gilroy-Light';
+    src: url('./assets/font/Gilroy-Light.ttf')
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url('./assets/font/Gilroy-Regular.ttf')
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('./assets/font/Gilroy-Medium.ttf')
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('./assets/font/Gilroy-Bold.ttf')
+}
+
+@font-face {
+    font-family: 'Gilroy-Heavy';
+    src: url('./assets/font/Gilroy-Heavy.ttf')
+} */
+
+html,
+body,
+#wrapper,
+main {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #F1F2F8;
+    font-family: 'Barlow', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0
+}
+
+#main{
+    margin-top: 92px;
+    /* height: auto; */
+}
+
+@media (max-width: 1599px){
+    .container{
+        max-width: 84%;
+    }
+}
+@media (min-width: 1600px){
+    .container{
+        max-width: 78%;
+    }
+}
+@media (min-width: 769px) and (max-width: 1199px){
+    .container{
+        max-width: 100%;
+    }
+}
